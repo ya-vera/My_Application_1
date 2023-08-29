@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Start_game">Start</string>
+    <string name="About_game">About</string>
+    <string name="Exit_game">Exit</string>
+    <string name="Back">Back</string>
+</resources>

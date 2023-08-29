@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" 
+    tools:context=".MainActivity">
+    
+    <Button
+        android:id="@+id/main_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Start_game"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/main_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/About_game"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/main_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Exit_game"
+        android:onClick="onClick"/>
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/container"-->
+<!--        android:background="@color/blue"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:orientation="vertical"/>-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="148dp">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivArrowCircleLeft"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginStart="100dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:rotation="270"-->
+<!--            android:src="@drawable/baseline_arrow_circle_up"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivArrowCircleUp"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:src="@drawable/baseline_arrow_circle_up"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivArrowCircleDown"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:rotation="180"-->
+<!--            android:src="@drawable/baseline_arrow_circle_up"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivArrowCircleRight"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginEnd="100dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:rotation="90"-->
+<!--            android:src="@drawable/baseline_arrow_circle_up"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivPause"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:src="@drawable/baseline_pause_24"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--&lt;!&ndash;        <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/ivPlay"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginEnd="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginBottom="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:src="@drawable/baseline_play_arrow_24"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+</LinearLayout>
